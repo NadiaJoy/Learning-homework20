@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de2f33b4-d716-4d6e-b43c-61f807fd57d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyLovelyMath/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MyLovelyMath/CalcTest.java" afterDir="false" />
+    <list default="true" id="de2f33b4-d716-4d6e-b43c-61f807fd57d2" name="Changes" comment="Homework 20, ex.2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyLovelyMath/MyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MyLovelyMath/MyArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyLovelyMath/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyLovelyMath/MyCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyLovelyMath/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyLovelyMath/MyCalcTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,21 +50,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CalcTest">
-    <configuration name="MathMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyLovelyMath.MathMain" />
-      <module name="Learning-homework20" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MyLovelyMath.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MyArrayTest.noExceptionBoundariesNumbersTest">
+    <configuration name="MyArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learning-homework20" />
       <extension name="coverage">
         <pattern>
@@ -75,13 +65,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="MyLovelyMath" />
-      <option name="MAIN_CLASS_NAME" value="MyLovelyMath.CalcTest" />
+      <option name="MAIN_CLASS_NAME" value="MyLovelyMath.MyArrayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.NoExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArrayTest.exceptionBoundariesNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learning-homework20" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +80,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="MyLovelyMath" />
-      <option name="MAIN_CLASS_NAME" value="MyLovelyMath.CalcTest" />
-      <option name="METHOD_NAME" value="NoExceptionTest" />
+      <option name="MAIN_CLASS_NAME" value="MyLovelyMath.MyArrayTest" />
+      <option name="METHOD_NAME" value="exceptionBoundariesNumbersTest(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.TestException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArrayTest.exceptionNegativeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learning-homework20" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +96,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="MyLovelyMath" />
-      <option name="MAIN_CLASS_NAME" value="MyLovelyMath.CalcTest" />
-      <option name="METHOD_NAME" value="TestException" />
+      <option name="MAIN_CLASS_NAME" value="MyLovelyMath.MyArrayTest" />
+      <option name="METHOD_NAME" value="exceptionNegativeNumberTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayTest.noExceptionBoundariesNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learning-homework20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyLovelyMath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MyLovelyMath" />
+      <option name="MAIN_CLASS_NAME" value="MyLovelyMath.MyArrayTest" />
+      <option name="METHOD_NAME" value="noExceptionBoundariesNumbersTest(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayTest.noExceptionZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learning-homework20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyLovelyMath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MyLovelyMath" />
+      <option name="MAIN_CLASS_NAME" value="MyLovelyMath.MyArrayTest" />
+      <option name="METHOD_NAME" value="noExceptionZeroTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,10 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalcTest" />
-        <item itemvalue="JUnit.CalcTest.NoExceptionTest" />
-        <item itemvalue="JUnit.CalcTest.TestException" />
-        <item itemvalue="Application.MathMain" />
+        <item itemvalue="JUnit.MyArrayTest.noExceptionBoundariesNumbersTest" />
+        <item itemvalue="JUnit.MyArrayTest.noExceptionZeroTest" />
+        <item itemvalue="JUnit.MyArrayTest.exceptionNegativeNumberTest" />
+        <item itemvalue="JUnit.MyArrayTest.exceptionBoundariesNumbersTest" />
+        <item itemvalue="JUnit.MyArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +154,18 @@
       <option name="presentableId" value="Default" />
       <updated>1682535801656</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework 20, ex.2">
+      <created>1682876784939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682876784939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework 20, ex.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 20, ex.2" />
   </component>
 </project>
