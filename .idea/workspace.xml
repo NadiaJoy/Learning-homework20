@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de2f33b4-d716-4d6e-b43c-61f807fd57d2" name="Changes" comment="HM20, fixed issues #1 and #2">
+    <list default="true" id="de2f33b4-d716-4d6e-b43c-61f807fd57d2" name="Changes" comment="HM20, fixed issue #3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyLovelyMath/GetFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyLovelyMath/GetFactorial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683037474752</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HM20, fixed issue #3">
+      <created>1683038967859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683038967859</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,7 +191,8 @@
     <MESSAGE value="Homework 20, ex.3" />
     <MESSAGE value="Homework 20, ex.4" />
     <MESSAGE value="HM20, fixed issues #1 and #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="HM20, fixed issues #1 and #2" />
+    <MESSAGE value="HM20, fixed issue #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HM20, fixed issue #3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
