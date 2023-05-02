@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de2f33b4-d716-4d6e-b43c-61f807fd57d2" name="Changes" comment="Homework 20, ex.4" />
+    <list default="true" id="de2f33b4-d716-4d6e-b43c-61f807fd57d2" name="Changes" comment="HM20, fixed issues #1 and #2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyLovelyMath/GetFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyLovelyMath/GetFactorial.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +51,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyArrayTest">
+  <component name="RunManager" selected="Application.GetFactorial">
     <configuration name="GetFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyLovelyMath.GetFactorial" />
       <module name="Learning-homework20" />
@@ -127,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyArrayTest" />
         <item itemvalue="Application.GetFactorial" />
+        <item itemvalue="JUnit.MyArrayTest" />
         <item itemvalue="JUnit.MyArrayTest.noExceptionBoundariesNumbersTest" />
         <item itemvalue="JUnit.MyArrayTest.noExceptionZeroTest" />
         <item itemvalue="JUnit.MyArrayTest.exceptionNegativeNumberTest" />
@@ -165,14 +168,22 @@
       <option name="project" value="LOCAL" />
       <updated>1682891967898</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HM20, fixed issues #1 and #2">
+      <created>1683037474752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683037474752</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework 20, ex.2" />
     <MESSAGE value="Homework 20, ex.3" />
     <MESSAGE value="Homework 20, ex.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 20, ex.4" />
+    <MESSAGE value="HM20, fixed issues #1 and #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HM20, fixed issues #1 and #2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
