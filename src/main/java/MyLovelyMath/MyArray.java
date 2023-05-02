@@ -2,7 +2,7 @@ package MyLovelyMath;
 
 public class MyArray {
 
-    public static int CreatePrintArray(int indexNumber) {
+    public static int getArrayElementByIndex(int indexNumber) {
 
         int[] myArray = new int[5];
 
